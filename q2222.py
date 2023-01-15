@@ -221,7 +221,7 @@ if __name__ == '__main__':
     pq.insert(6)
     print(pq.ll.get(1))
     pq.del_min()
-    print(pq.min)
+    print(pq.min())
     #print(pq.ll.get(1))
     ##print(pq.min())
     #pq.del_min()
